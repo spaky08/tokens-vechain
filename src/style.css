@@ -1,0 +1,216 @@
+.cc-theme #app .nav.light {
+  background-color: rgba(0, 0, 0, .2);
+  border-bottom: none;
+  color: #fff;
+}
+
+.cc-theme #app>.ant-layout {
+  background: url(./assets/background.svg);
+  background-repeat: no-repeat;
+}
+
+.cc-theme #app .nav .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.cc-theme .font-g {
+  font-family: 'Teko';
+}
+.cc-theme .nav .ant-menu {
+  background-color: transparent;
+}
+
+.cc-theme .ant-menu-horizontal>.ant-menu-item>a:hover {
+  color: #fff;
+}
+
+.cc-theme .ant-menu-horizontal>.ant-menu-item:hover, .cc-theme .ant-menu-horizontal>.ant-menu-item {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.cc-theme .ant-menu .ant-menu-item:after {
+  display: block;
+  width: 0;
+  content: "";
+  background-color: #fff;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  transition: all 0.2s ease-out;
+}
+
+.cc-theme .ant-menu .ant-menu-item-selected::after {
+  width: 90%;
+}
+
+.cc-theme .ant-menu .ant-menu-item>a, .ant-menu .ant-menu-item-selected>a, .ant-menu .ant-menu-item-selected>a:hover {
+  color: #fff;
+}
+
+.cus-btn {
+  padding: 10px 35px;
+  line-height: 16px;
+  height: 36px;
+  background-color: #625B6C;
+  border: none;
+  color: #fff;
+}
+
+.cus-btn:focus, .cus-btn:hover {
+  background-color: #80788C;
+  color: #fff;
+}
+
+.cus-btn-normal {
+  color: #000;
+  border-radius: 6px;
+}
+.transfer h2,
+.wallet h2 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.transfer h2.underscore,
+.wallet h2.underscore {
+  display: inline-block;
+  position: relative;
+}
+.transfer h2.underscore::after,
+.wallet h2.underscore:after {
+  height: 5px;
+  background: linear-gradient( to right, #FFBC27, #FFDF4F);
+  bottom: 10px;
+  width: 150px;
+  position: absolute;
+  content: "";
+  display: block;
+}
+
+.ant-form-item-label label {
+  color: #fff;
+  font-size: 24px;
+}
+
+.has-error .ant-input:focus, .has-error .ant-input, .has-error .ant-input:hover {
+  border-color: red;
+}
+
+.ant-input {
+  background-color: transparent;
+  border-color: #C1C1CD;
+  color: #fff;
+  /* height: 46px; */
+  box-sizing: border-box;
+}
+
+.ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(247, 247, 247, 0.2);
+}
+
+.cus-modal .ant-modal-body {
+  padding: 40px;
+}
+
+.cc-theme .wallet-detail .wallet-name span,
+.cc-theme .wallet-detail .wallet-address {
+    color: #fff;
+}
+.cc-theme .transfer-wallet.show-card .wallet-label {
+  max-width: 150px;
+}
+.cc-theme .transfer-wallet.show-card {
+  background-color: transparent;
+  width: initial;
+}
+
+.cc-theme .transfer-wallet.show-card:hover {
+  background: rgba(255, 255, 255, .1);
+}
+
+.cc-theme .transfer-wallet.show-card .wallet-label,
+.cc-theme .transfer-wallet.show-card .wallet-address {
+    color: #fff;
+}
+
+.cus-modal .ant-modal .ant-modal-content {
+  background-color: #34344C;
+  box-shadow: none;
+}
+
+.add-wallet .ant-input, .add-wallet .btn {
+  width: 400px;
+  margin: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+.add-wallet .ant-form-item {
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+.cc-theme .import-btn, .cc-theme .add-btn {
+  box-shadow: 2px 4px 7px 1px rgba(0, 0, 0, .3);
+}
+
+.cc-theme .add-btn {
+  background: linear-gradient(135deg, #FEDB4C, #FB9E1E);
+}
+
+.cc-theme .import-btn::before, .cc-theme .import-btn::after, .cc-theme .add-btn::before, .cc-theme .add-btn::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  border: none;
+  z-index: 0;
+}
+
+.cc-theme .add-btn::before {
+  background-image: url(./assets/addBtn.png);
+  background-position: top right;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.cc-theme .import-btn::before {
+  background-image: url(./assets/importBtn.png);
+  background-position: center right;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.cc-theme .import-btn {
+  background: linear-gradient(135deg, #627EFF, #A572FF)
+}
+
+.cc-theme .import-btn::after, .cc-theme .import-btn::before {
+  border: none;
+}
+
+.cc-theme .import-btn, .cc-theme .add-btn {
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.cc-theme .cus-modal h1 {
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.remove-wallet-dialog p {
+  color: #F7F7F8;
+}
